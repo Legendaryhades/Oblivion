@@ -11,7 +11,7 @@ exports.proxyip = false;
 // Pokemon of the Day - put a pokemon's name here to make it Pokemon of the Day
 //   The PotD will always be in the #2 slot (not #1 so it won't be a lead)
 //   in every Random Battle team.
-exports.potd = '';
+exports.potd =  true;
 
 // crash guard - write errors to log file instead of crashing
 //   This is normally not recommended - if Node wants to crash, the
@@ -137,7 +137,7 @@ exports.herokuhack = false;
 //
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
-exports.customAvatars = {
+exports.customavatars = {
 	//'userid': 'customavatar.png'
 };
 
@@ -242,7 +242,6 @@ exports.groups = {
 		roomvoice: true,
 		forcerename: true,
 		ip: true,
-		tournamentsmoderation: true,
 		alts: '@u',
 		tournaments: true,
 		rank: 3
@@ -272,7 +271,6 @@ exports.groups = {
 		inherit: ' ',
 		broadcast: true,
 		joinbattle: true,
-		tournaments: true,
 		rank: 1
 	},
 	' ': {
