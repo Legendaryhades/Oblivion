@@ -1,0 +1,40 @@
+body{
+        background-image:url("http://fc06.deviantart.net/fs70/i/2011/226/7/3/giratina_wallpaper_by_marudeth-d46kc0p.png");
+        background-repeat:no-repeat;
+        background-position:right top;
+        background-size: 100% 100%;
+}
+ 
+.chat-log{
+        background: #f0ffe0 url("http://cdn.bulbagarden.net/upload/thumb/3/3e/635Hydreigon.png/250px-635Hydreigon.png") right top no-repeat;
+}
+.chat-log-add, .battle-log-add {
+    border-left:1px solid #000000;
+    background: #000000
+}
+.menugroup .button{
+        background:#000000
+}
+ 
+.menugroup .menugroup{
+        text-align:center
+}
+ 
+.menugroup .button:hover {
+        background:#000000
+}
+ 
+.message-announce {
+        background:#000000
+}
+.userlist{
+        border-left:1px solid #5040ae;
+        background:#000000'
+}
+.userlist li button:hover {
+        background:#000000c
+}
+.backdrop {
+        background-image: url("http://i.imgur.com/am5zURy.png?1?2458") !important;
+        top: 0px !important;
+}
